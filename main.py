@@ -3,7 +3,7 @@ import random
 from cod import is_first_semester
 
 def clear_screen():
-    if os.name == 'nt':  #Windows
+    if os.name == 'nt':  #Window
         os.system('cls')
     else:  #Unix/Linux/Mac
         os.system('clear')
